@@ -1,0 +1,32 @@
+
+body{background-color:rgb(0,180,216);
+    display:flex;
+    flex-direction: column;
+    align-items: center;}
+.container{background-color:whitesmoke;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width:50%;
+border-radius: 10px;
+}
+button{
+  background-color:rgb(0,119,182);
+  color:whitesmoke;
+  border-radius:10px;
+ box-shadow: 0px 0px 15px rgb(164,19,60);
+ 
+}
+button:hover{
+    background-color: rgb(164,19,60);
+    color:whitesmoke;
+    cursor: grab;
+    box-shadow: 0px 0px 15px rgb(0,119,182);
+
+}
+#label-container{
+    color:rgb(164,19,60);
+    background-color:whitesmoke;
+   
+}
