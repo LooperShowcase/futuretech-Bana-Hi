@@ -1,32 +1,53 @@
+/* Default styles for all screen sizes */
+body {
+  background-color: rgb(0, 180, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-body{background-color:rgb(0,180,216);
-    display:flex;
-    flex-direction: column;
-    align-items: center;}
-.container{background-color:whitesmoke;
-display:flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-width:50%;
-border-radius: 10px;
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10px;
 }
-button{
-  background-color:rgb(0,119,182);
-  color:whitesmoke;
-  border-radius:10px;
- box-shadow: 0px 0px 15px rgb(164,19,60);
- 
-}
-button:hover{
-    background-color: rgb(164,19,60);
-    color:whitesmoke;
-    cursor: grab;
-    box-shadow: 0px 0px 15px rgb(0,119,182);
 
+button {
+  background-color: rgb(0, 119, 182);
+  color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(164, 19, 60);
 }
-#label-container{
-    color:rgb(164,19,60);
-    background-color:whitesmoke;
-   
+
+button:hover {
+  background-color: rgb(164, 19, 60);
+  color: whitesmoke;
+  cursor: grab;
+  box-shadow: 0px 0px 15px rgb(0, 119, 182);
 }
+
+#label-container {
+  color: rgb(164, 19, 60);
+  background-color: whitesmoke;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Additional media queries for other screen sizes if needed */
+
